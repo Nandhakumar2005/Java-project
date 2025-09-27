@@ -1,32 +1,17 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.2.5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:143.0) Gecko/20100101 Firefox/143.0" version="28.2.5">
   <diagram name="Page-1" id="pV7Trg5NBEQ5j20RBf_0">
-    <mxGraphModel dx="1034" dy="570" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
+    <mxGraphModel dx="703" dy="535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="light-dark(#FFFFFF,#FFFFFF)" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mrRlsFg7nMs6s6UZQ0s3-2" value="Classname" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="444" y="77" width="140" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="mrRlsFg7nMs6s6UZQ0s3-3" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mrRlsFg7nMs6s6UZQ0s3-2" vertex="1">
-          <mxGeometry y="26" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="mrRlsFg7nMs6s6UZQ0s3-4" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mrRlsFg7nMs6s6UZQ0s3-2" vertex="1">
-          <mxGeometry y="52" width="140" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="mrRlsFg7nMs6s6UZQ0s3-5" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="mrRlsFg7nMs6s6UZQ0s3-2" vertex="1">
-          <mxGeometry y="78" width="140" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="y8tlXKLoTE9f-Xld9qtu-1" value="MainFrame" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="264" y="27" width="322" height="151" as="geometry" />
+          <mxGeometry x="312" y="23" width="322" height="79" as="geometry" />
         </mxCell>
         <mxCell id="y8tlXKLoTE9f-Xld9qtu-2" value="-addItemPanel: AddItemPanel&lt;div&gt;-viewItesPanel: ViewItemsPanel&lt;/div&gt;" style="text;fillColor=#b0e3e6;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;strokeColor=#0e8088;" parent="y8tlXKLoTE9f-Xld9qtu-1" vertex="1">
           <mxGeometry y="26" width="322" height="45" as="geometry" />
         </mxCell>
         <mxCell id="y8tlXKLoTE9f-Xld9qtu-3" value="" style="line;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fillColor=#fff2cc;strokeColor=#d6b656;gradientColor=#ffd966;" parent="y8tlXKLoTE9f-Xld9qtu-1" vertex="1">
           <mxGeometry y="71" width="322" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="y8tlXKLoTE9f-Xld9qtu-4" value="+MainFrame()&lt;div&gt;+initUI(): void&lt;/div&gt;&lt;div&gt;+showAddItemPanel(): void&lt;/div&gt;&lt;div&gt;+showViewItemsPanel(): void&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;" parent="y8tlXKLoTE9f-Xld9qtu-1" vertex="1">
-          <mxGeometry y="79" width="322" height="72" as="geometry" />
         </mxCell>
         <mxCell id="y8tlXKLoTE9f-Xld9qtu-5" value="ViewItemsPanel&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="546" y="219" width="260" height="184" as="geometry" />
@@ -123,6 +108,9 @@
             <mxPoint x="366" y="649" as="sourcePoint" />
             <mxPoint x="526" y="649" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="y8tlXKLoTE9f-Xld9qtu-4" value="+MainFrame()&lt;div&gt;+initUI(): void&lt;/div&gt;&lt;div&gt;+showAddItemPanel(): void&lt;/div&gt;&lt;div&gt;+showViewItemsPanel(): void&lt;/div&gt;" style="text;strokeColor=#666666;fillColor=#f5f5f5;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;gradientColor=#b3b3b3;" parent="1" vertex="1">
+          <mxGeometry x="312" y="102" width="322" height="72" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
